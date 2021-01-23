@@ -10,7 +10,7 @@ export function createStore(rootReducer, initialState) {
         subscribe(callback) {
             subscribers.push(callback);
         },
-        getStore() {
+        getState() {
             return state;
         }
     };
